@@ -3,3 +3,6 @@
 * 파이어 폭스 브라우저에서만 정상 작동되며 Pretendard 폰트 파일이 필요합니다.
 
 해당 파일은 https://github.com/orioncactus/pretendard 에서 확인 하실수있습니다.
+
+#스크린샷
+![](https://github.com/choho1515/arca.live_glass-style/blob/main/shot.png)
