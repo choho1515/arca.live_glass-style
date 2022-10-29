@@ -18,8 +18,8 @@ html.theme-dark {
 }
 .body .navbar-wrapper {
     top: 1%;
-    left: 45%;
-    transform: translate(-45%);
+    left: 50%;
+    transform: translate(-50%);
     position: fixed;
     border-radius: 15px;
     border-bottom: unset
