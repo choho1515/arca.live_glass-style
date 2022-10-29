@@ -1,0 +1,66 @@
+body:lang(ko) {
+    font-family: Pretendard Light, "Apple SD Gothic Neo", NanumBarunGothic, "맑은 고딕", "Malgun Gothic", Gulim, 굴림, Dotum, 돋움, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+html.theme-dark {
+    --color-bg-navbar: #242424cf;
+    --color-border-outer: #333333ab
+}
+.body .board-article {
+    margin-top: 5rem;
+    border-radius: 6px 6px 0 0
+}
+.body .sidebar .sidebar-item {
+    margin-top: 4.2rem
+}
+.body .board-article .board-title .buttons .btn {
+    border-radius: 6px
+}
+.body .navbar-wrapper {
+    top: 1%;
+    left: 45%;
+    transform: translate(-45%);
+    position: fixed;
+    border-radius: 15px;
+    border-bottom: unset
+}
+.body .dropdown-menu,
+.body .navbar-wrapper {
+    background-color: var(--color-bg-navbar);
+    box-shadow: 0 8px 32px 0 rgba(24, 24, 24, .6)
+}
+.body .dropdown-menu,
+.body .navbar-wrapper,
+.body .navbar-wrapper .navbar .dropdown-menu {
+    backdrop-filter: blur(50px) saturate(180%);
+    -webkit-backdrop-filter: blur(50px) saturate(180%);
+    border: 1.5px solid var(--color-border-outer)
+}
+.body .navbar-wrapper .navbar .dropdown-menu {
+    margin-top: .95rem;
+    margin-right: -.75rem;
+    border-bottom: unset;
+    border-radius: 15px;
+    border-color: var(--color-border-outer);
+    overflow: auto;
+    height: 320px
+}
+.dropdown-item {
+    padding: .12rem 1.1rem
+}
+.body .navbar-wrapper .navbar .search-form {
+    background-color: unset;
+    border-radius: 6px
+}
+.body .navbar-wrapper .navbar .search-form .search-input-wrapper {
+    border-bottom: unset
+}
+.content {
+    border-radius: 0 0 15px 15px
+}
+.channel-icon,
+.emoticon,
+.image,
+img,
+video {
+    border-radius: 10px!important
+}
